@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Choose you Arithmetic Operator</title>
+    </head>
+    <body>
+        <h1>Choose your arithmetic operator and operands</h1>
+        <form action="runOperator.php" method="post">
+            <label>Number 1:<input type="number" name="fnumber1"></label>
+            <p/>
+            <label>Number 2:<input type="number" name="fnumber2"></label>
+            <p/>
+            <label>Operator:
+                <select name="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </label>
+            <p/>
+            <input type="submit" name="submitValue" value="calculate"/>
+        </form>
+    </body>
+</html>
